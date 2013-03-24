@@ -1,4 +1,7 @@
 Omproject::Application.routes.draw do
+  resources :pins
+
+
   devise_for :views
 
   devise_for :users
